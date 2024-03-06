@@ -1,0 +1,40 @@
+.aboutArtistContainer {
+  padding: 50px 0px;
+  padding-top: 100px;
+}
+
+.artistImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.artistImageContainer img {
+  width: 60%;
+}
+.logoDzanar {
+  width: 350px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  .artistImageContainer {
+    margin-bottom: 30px;
+  }
+  .logoDzanar {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .logoDzanarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutArtistContainer {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .artistImageContainer img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+.PFContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  padding-top: 50px;
+  flex-direction: column;
+}
+.PFCTitle {
+  text-align: center;
+  font-size: 48px;
+}
+.PFCParagraph {
+  text-align: center;
+  font-size: 14px;
+  width: 400px;
+  margin-top: 20px;
+}
